@@ -3,8 +3,8 @@ let occupiedCartons = new Set();
 let inscriptions = [];
 let total = 0;
 
-const SUPABASE_URL = 'https://fhupnzsulpvhobkumtae.supabase.co';
-const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZodXBuenN1bHB2aG9ia3VtdGFlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDU3MDc1NTgsImV4cCI6MjA2MTI4MzU1OH0.-5rdAm5eClxOubV-7Jl1IyVrI1Qi4u1_nA3skgufxSc';
+const SUPABASE_URL = 'https://deuplnndtmpoksboupfy.supabase.co';
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRldXBsbm5kdG1wb2tzYm91cGZ5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDYwNTUxNDgsImV4cCI6MjA2MTYzMTE0OH0._S2RcyxpuCmgDWhpG1zfd3XmUchp1lUvHGp7pZZUasE';
 
 const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 // Función para establecer la fecha actual como la única opción
