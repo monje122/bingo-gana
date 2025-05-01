@@ -2,7 +2,7 @@ body {
   font-family: 'Segoe UI', sans-serif;
   margin: 0;
   padding: 0;
-  background: linear-gradient(135deg, #853ce7, #e0f7fa);
+  background: linear-gradient(135deg, #4a3ce7, #e0f7fa);
   color: #333;
 }
 
@@ -30,12 +30,12 @@ header {
 #logo {
   display: block;
   margin: 20px auto;
-  width: 150px;
+  width: 300px;
 }
 
 h2 {
   text-align: center;
-  color: #00695c;
+  color: #19191a;
 }
 
 p, li, label {
@@ -52,7 +52,7 @@ p, li, label {
 .botones button,
 button {
   padding: 12px;
-  background-color: #00796b;
+  background-color: #161717;
   color: white;
   font-size: 16px;
   border: none;
