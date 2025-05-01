@@ -86,7 +86,7 @@ function goToPayment() {
 function generateCartons() {
   const container = document.getElementById("cartons-container");
   container.innerHTML = "";
-  for (let i = 1; i <= 3000; i++) {
+  for (let i = 1; i <= 2000; i++) {
     const div = document.createElement("div");
     div.className = "carton";
     div.textContent = i;
